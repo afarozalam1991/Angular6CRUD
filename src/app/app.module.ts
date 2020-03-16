@@ -7,6 +7,7 @@ import { MaterialModuleModule } from './modules/material-module.module';
 import { ListEmployeesComponent } from './employees/list-employees.component';
 import { CreateEmployeeComponent } from './employees/create-employee.component';
 import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +19,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     MaterialModuleModule,
     FormsModule,
-    ReactiveFormsModule
-
-  ],
+    ReactiveFormsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

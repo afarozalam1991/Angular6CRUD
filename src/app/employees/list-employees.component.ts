@@ -9,6 +9,17 @@ export class ListEmployeesComponent implements OnInit {
   employees: Employee[] = [
     {
       id: 1,
+      name: 'Afaroz',
+      gender: 'Male',
+      contactPreference: 'Email',
+      email: 'afaroz@pragimtech.com',
+      dateOfBirth: new Date('10/25/1988'),
+      department: 'IT',
+      isActive: true,
+      photoPath: 'assets/images/afaroz.png'
+    },
+    {
+      id: 2,
       name: 'Mark',
       gender: 'Male',
       contactPreference: 'Email',
@@ -19,7 +30,7 @@ export class ListEmployeesComponent implements OnInit {
       photoPath: 'assets/images/mark.png'
     },
     {
-      id: 2,
+      id: 3,
       name: 'Mary',
       gender: 'Female',
       contactPreference: 'Phone',
@@ -30,7 +41,7 @@ export class ListEmployeesComponent implements OnInit {
       photoPath: 'assets/images/mary.png'
     },
     {
-      id: 3,
+      id: 4,
       name: 'John',
       gender: 'Male',
       contactPreference: 'Phone',
