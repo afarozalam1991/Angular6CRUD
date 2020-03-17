@@ -7,12 +7,14 @@ import { MaterialModuleModule } from './modules/material-module.module';
 import { ListEmployeesComponent } from './employees/list-employees.component';
 import { CreateEmployeeComponent } from './employees/create-employee.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SelectRequiredValidatorDirective } from './shared/select-required-validator.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListEmployeesComponent,
-    CreateEmployeeComponent
+    CreateEmployeeComponent,
+    SelectRequiredValidatorDirective
   ],
   imports: [
     BrowserModule,
